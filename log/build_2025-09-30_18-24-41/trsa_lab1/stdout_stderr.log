@@ -1,0 +1,176 @@
+running egg_info
+creating ../../build/trsa_lab1/trsa_lab1.egg-info
+writing ../../build/trsa_lab1/trsa_lab1.egg-info/PKG-INFO
+writing dependency_links to ../../build/trsa_lab1/trsa_lab1.egg-info/dependency_links.txt
+writing entry points to ../../build/trsa_lab1/trsa_lab1.egg-info/entry_points.txt
+writing requirements to ../../build/trsa_lab1/trsa_lab1.egg-info/requires.txt
+writing top-level names to ../../build/trsa_lab1/trsa_lab1.egg-info/top_level.txt
+writing manifest file '../../build/trsa_lab1/trsa_lab1.egg-info/SOURCES.txt'
+reading manifest file '../../build/trsa_lab1/trsa_lab1.egg-info/SOURCES.txt'
+writing manifest file '../../build/trsa_lab1/trsa_lab1.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/davidter/ros2_ws/build/trsa_lab1/build
+creating /home/davidter/ros2_ws/build/trsa_lab1/build/lib
+creating /home/davidter/ros2_ws/build/trsa_lab1/build/lib/trsa_lab1
+copying trsa_lab1/image_rectifier.py -> /home/davidter/ros2_ws/build/trsa_lab1/build/lib/trsa_lab1
+copying trsa_lab1/image_reader.py -> /home/davidter/ros2_ws/build/trsa_lab1/build/lib/trsa_lab1
+copying trsa_lab1/camera_driver.py -> /home/davidter/ros2_ws/build/trsa_lab1/build/lib/trsa_lab1
+copying trsa_lab1/camera_calibration_pub.py -> /home/davidter/ros2_ws/build/trsa_lab1/build/lib/trsa_lab1
+copying trsa_lab1/__init__.py -> /home/davidter/ros2_ws/build/trsa_lab1/build/lib/trsa_lab1
+running install
+running install_lib
+creating /home/davidter/ros2_ws/install/trsa_lab1/lib/python3.10/site-packages/trsa_lab1
+copying /home/davidter/ros2_ws/build/trsa_lab1/build/lib/trsa_lab1/image_rectifier.py -> /home/davidter/ros2_ws/install/trsa_lab1/lib/python3.10/site-packages/trsa_lab1
+copying /home/davidter/ros2_ws/build/trsa_lab1/build/lib/trsa_lab1/image_reader.py -> /home/davidter/ros2_ws/install/trsa_lab1/lib/python3.10/site-packages/trsa_lab1
+copying /home/davidter/ros2_ws/build/trsa_lab1/build/lib/trsa_lab1/camera_driver.py -> /home/davidter/ros2_ws/install/trsa_lab1/lib/python3.10/site-packages/trsa_lab1
+copying /home/davidter/ros2_ws/build/trsa_lab1/build/lib/trsa_lab1/camera_calibration_pub.py -> /home/davidter/ros2_ws/install/trsa_lab1/lib/python3.10/site-packages/trsa_lab1
+copying /home/davidter/ros2_ws/build/trsa_lab1/build/lib/trsa_lab1/__init__.py -> /home/davidter/ros2_ws/install/trsa_lab1/lib/python3.10/site-packages/trsa_lab1
+byte-compiling /home/davidter/ros2_ws/install/trsa_lab1/lib/python3.10/site-packages/trsa_lab1/image_rectifier.py to image_rectifier.cpython-310.pyc
+byte-compiling /home/davidter/ros2_ws/install/trsa_lab1/lib/python3.10/site-packages/trsa_lab1/image_reader.py to image_reader.cpython-310.pyc
+byte-compiling /home/davidter/ros2_ws/install/trsa_lab1/lib/python3.10/site-packages/trsa_lab1/camera_driver.py to camera_driver.cpython-310.pyc
+byte-compiling /home/davidter/ros2_ws/install/trsa_lab1/lib/python3.10/site-packages/trsa_lab1/camera_calibration_pub.py to camera_calibration_pub.cpython-310.pyc
+byte-compiling /home/davidter/ros2_ws/install/trsa_lab1/lib/python3.10/site-packages/trsa_lab1/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/davidter/ros2_ws/install/trsa_lab1/share/ament_index
+creating /home/davidter/ros2_ws/install/trsa_lab1/share/ament_index/resource_index
+creating /home/davidter/ros2_ws/install/trsa_lab1/share/ament_index/resource_index/packages
+copying resource/trsa_lab1 -> /home/davidter/ros2_ws/install/trsa_lab1/share/ament_index/resource_index/packages
+copying package.xml -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1
+creating /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/video
+copying video/test.mov -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/video
+creating /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration
+creating /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/9.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/57.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/27.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/40.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/79.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/111.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/34.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/105.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/117.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/99.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/68.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/83.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/84.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/18.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/26.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/8.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/28.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/109.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/35.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/24.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/55.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/98.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/119.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/95.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/43.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/81.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/0.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/22.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/10.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/13.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/63.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/60.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/20.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/36.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/30.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/75.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/97.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/77.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/2.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/125.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/112.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/110.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/31.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/45.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/69.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/115.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/82.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/37.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/65.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/42.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/14.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/71.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/49.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/91.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/101.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/44.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/54.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/108.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/52.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/56.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/90.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/19.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/59.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/114.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/67.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/7.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/12.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/104.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/25.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/87.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/1.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/66.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/58.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/102.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/106.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/124.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/41.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/73.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/5.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/6.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/62.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/85.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/47.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/123.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/89.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/94.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/88.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/46.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/32.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/126.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/21.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/72.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/33.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/3.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/29.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/107.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/116.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/64.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/70.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/80.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/120.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/103.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/61.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/122.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/76.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/11.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/48.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/86.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/4.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/17.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/93.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/15.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/100.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/74.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/92.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/38.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/39.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/16.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/50.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/23.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/118.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/51.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/113.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/121.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/53.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/96.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+copying calibration/images/78.jpeg -> /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images
+running install_egg_info
+Copying ../../build/trsa_lab1/trsa_lab1.egg-info to /home/davidter/ros2_ws/install/trsa_lab1/lib/python3.10/site-packages/trsa_lab1-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera_calibration_pub script to /home/davidter/ros2_ws/install/trsa_lab1/lib/trsa_lab1
+Installing camera_driver script to /home/davidter/ros2_ws/install/trsa_lab1/lib/trsa_lab1
+writing list of installed files to '/home/davidter/ros2_ws/build/trsa_lab1/install.log'

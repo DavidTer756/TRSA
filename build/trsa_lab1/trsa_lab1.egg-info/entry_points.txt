@@ -1,0 +1,8 @@
+[console_scripts]
+camera_calibration_pub = trsa_lab1.camera_calibration_pub:main
+camera_driver = trsa_lab1.camera_driver:main
+image_convert = trsa_lab1.image_convert:main
+image_reader = trsa_lab1.image_reader:main
+image_rectifier = trsa_lab1.image_rectifier:main
+object_detection = trsa_lab1.object_detection:main
+

@@ -1,0 +1,28 @@
+[0.653s] Invoking command in '/home/davidter/ros2_ws/src/trsa_lab1': PYTHONPATH=/home/davidter/ros2_ws/build/trsa_lab1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davidter/ros2_ws/install/trsa_lab1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/trsa_lab1 build --build-base /home/davidter/ros2_ws/build/trsa_lab1/build install --record /home/davidter/ros2_ws/build/trsa_lab1/install.log --single-version-externally-managed install_data
+[0.819s] running egg_info
+[0.821s] writing ../../build/trsa_lab1/trsa_lab1.egg-info/PKG-INFO
+[0.821s] writing dependency_links to ../../build/trsa_lab1/trsa_lab1.egg-info/dependency_links.txt
+[0.821s] writing entry points to ../../build/trsa_lab1/trsa_lab1.egg-info/entry_points.txt
+[0.821s] writing requirements to ../../build/trsa_lab1/trsa_lab1.egg-info/requires.txt
+[0.822s] writing top-level names to ../../build/trsa_lab1/trsa_lab1.egg-info/top_level.txt
+[0.824s] reading manifest file '../../build/trsa_lab1/trsa_lab1.egg-info/SOURCES.txt'
+[0.829s] writing manifest file '../../build/trsa_lab1/trsa_lab1.egg-info/SOURCES.txt'
+[0.829s] running build
+[0.829s] running build_py
+[0.829s] copying trsa_lab1/image_rectifier.py -> /home/davidter/ros2_ws/build/trsa_lab1/build/lib/trsa_lab1
+[0.830s] running install
+[0.830s] running install_lib
+[0.831s] copying /home/davidter/ros2_ws/build/trsa_lab1/build/lib/trsa_lab1/image_rectifier.py -> /home/davidter/ros2_ws/install/trsa_lab1/lib/python3.10/site-packages/trsa_lab1
+[0.832s] byte-compiling /home/davidter/ros2_ws/install/trsa_lab1/lib/python3.10/site-packages/trsa_lab1/image_rectifier.py to image_rectifier.cpython-310.pyc
+[0.833s] running install_data
+[0.838s] running install_egg_info
+[0.839s] removing '/home/davidter/ros2_ws/install/trsa_lab1/lib/python3.10/site-packages/trsa_lab1-0.0.0-py3.10.egg-info' (and everything under it)
+[0.840s] Copying ../../build/trsa_lab1/trsa_lab1.egg-info to /home/davidter/ros2_ws/install/trsa_lab1/lib/python3.10/site-packages/trsa_lab1-0.0.0-py3.10.egg-info
+[0.841s] running install_scripts
+[0.856s] Installing camera_calibration_pub script to /home/davidter/ros2_ws/install/trsa_lab1/lib/trsa_lab1
+[0.856s] Installing camera_driver script to /home/davidter/ros2_ws/install/trsa_lab1/lib/trsa_lab1
+[0.856s] Installing image_convert script to /home/davidter/ros2_ws/install/trsa_lab1/lib/trsa_lab1
+[0.856s] Installing image_reader script to /home/davidter/ros2_ws/install/trsa_lab1/lib/trsa_lab1
+[0.857s] Installing image_rectifier script to /home/davidter/ros2_ws/install/trsa_lab1/lib/trsa_lab1
+[0.857s] writing list of installed files to '/home/davidter/ros2_ws/build/trsa_lab1/install.log'
+[0.879s] Invoked command in '/home/davidter/ros2_ws/src/trsa_lab1' returned '0': PYTHONPATH=/home/davidter/ros2_ws/build/trsa_lab1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davidter/ros2_ws/install/trsa_lab1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/trsa_lab1 build --build-base /home/davidter/ros2_ws/build/trsa_lab1/build install --record /home/davidter/ros2_ws/build/trsa_lab1/install.log --single-version-externally-managed install_data

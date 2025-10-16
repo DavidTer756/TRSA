@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing trsa_lab1.egg-info/PKG-INFO
+writing dependency_links to trsa_lab1.egg-info/dependency_links.txt
+writing entry points to trsa_lab1.egg-info/entry_points.txt
+writing requirements to trsa_lab1.egg-info/requires.txt
+writing top-level names to trsa_lab1.egg-info/top_level.txt
+reading manifest file 'trsa_lab1.egg-info/SOURCES.txt'
+writing manifest file 'trsa_lab1.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/davidter/ros2_ws/install/trsa_lab1/lib/python3.10/site-packages/trsa-lab1.egg-link (link to .)
+Installing camera_calibration_pub script to /home/davidter/ros2_ws/install/trsa_lab1/lib/trsa_lab1
+Installing camera_driver script to /home/davidter/ros2_ws/install/trsa_lab1/lib/trsa_lab1
+
+Installed /home/davidter/ros2_ws/build/trsa_lab1
+running symlink_data

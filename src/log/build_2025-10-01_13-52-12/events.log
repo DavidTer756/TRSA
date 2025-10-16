@@ -1,0 +1,322 @@
+[0.000000] (-) TimerEvent: {}
+[0.001002] (trsa_lab1) JobQueued: {'identifier': 'trsa_lab1', 'dependencies': OrderedDict()}
+[0.001097] (trsa_lab1) JobStarted: {'identifier': 'trsa_lab1'}
+[0.099438] (-) TimerEvent: {}
+[0.201634] (-) TimerEvent: {}
+[0.302883] (-) TimerEvent: {}
+[0.403248] (-) TimerEvent: {}
+[0.503594] (-) TimerEvent: {}
+[0.603951] (-) TimerEvent: {}
+[0.644154] (trsa_lab1) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../build/trsa_lab1', 'build', '--build-base', '/home/davidter/ros2_ws/src/build/trsa_lab1/build', 'install', '--record', '/home/davidter/ros2_ws/src/build/trsa_lab1/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/davidter/ros2_ws/src/trsa_lab1', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'davidter', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/davidter', 'OLDPWD': '/home/davidter/ros2_ws/src/trsa_lab1', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-22.04', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'davidter', 'NAME': 'Asus-A15', 'WSL_INTEROP': '/run/WSL/311_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/VMware/VMware Workstation/bin/:/mnt/c/Program Files/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files/Microsoft/jdk-11.0.16.101-hotspot/bin:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/:/mnt/c/Program Files/mosquitto:/mnt/c/Program Files/dotnet/:/mnt/c/JupyterLab:/mnt/c/ProgramData/anaconda3/condabin:/mnt/c/ProgramData/anaconda3:/mnt/c/ProgramData/anaconda3/Scripts:/mnt/c/ProgramData/anaconda3/Library/bin:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/PuTTY/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Users/David Ter/Desktop/ISCF_Lab3/bin:/mnt/c/str/labwork2/labwork2/src:/mnt/c/Users/David Ter/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/program files/mosquito:/mnt/c/Users/David Ter/.dotnet/tools:/mnt/c/Users/David Ter/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/David Ter/AppData/Roaming/npm:/mnt/c/Program Files/Git/bin/:/mnt/c/Program Files/Git/cmd/:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/davidter/ros2_ws/src/build/trsa_lab1', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/davidter/ros2_ws/src/build/trsa_lab1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davidter/ros2_ws/src/install/trsa_lab1/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': ''}, 'shell': False}
+[0.704105] (-) TimerEvent: {}
+[0.804497] (-) TimerEvent: {}
+[0.809541] (trsa_lab1) StdoutLine: {'line': b'running egg_info\n'}
+[0.809983] (trsa_lab1) StdoutLine: {'line': b'creating ../build/trsa_lab1/trsa_lab1.egg-info\n'}
+[0.811137] (trsa_lab1) StdoutLine: {'line': b'writing ../build/trsa_lab1/trsa_lab1.egg-info/PKG-INFO\n'}
+[0.811364] (trsa_lab1) StdoutLine: {'line': b'writing dependency_links to ../build/trsa_lab1/trsa_lab1.egg-info/dependency_links.txt\n'}
+[0.811513] (trsa_lab1) StdoutLine: {'line': b'writing entry points to ../build/trsa_lab1/trsa_lab1.egg-info/entry_points.txt\n'}
+[0.811721] (trsa_lab1) StdoutLine: {'line': b'writing requirements to ../build/trsa_lab1/trsa_lab1.egg-info/requires.txt\n'}
+[0.811895] (trsa_lab1) StdoutLine: {'line': b'writing top-level names to ../build/trsa_lab1/trsa_lab1.egg-info/top_level.txt\n'}
+[0.811979] (trsa_lab1) StdoutLine: {'line': b"writing manifest file '../build/trsa_lab1/trsa_lab1.egg-info/SOURCES.txt'\n"}
+[0.814504] (trsa_lab1) StdoutLine: {'line': b"reading manifest file '../build/trsa_lab1/trsa_lab1.egg-info/SOURCES.txt'\n"}
+[0.816203] (trsa_lab1) StdoutLine: {'line': b"writing manifest file '../build/trsa_lab1/trsa_lab1.egg-info/SOURCES.txt'\n"}
+[0.816511] (trsa_lab1) StdoutLine: {'line': b'running build\n'}
+[0.816712] (trsa_lab1) StdoutLine: {'line': b'running build_py\n'}
+[0.816767] (trsa_lab1) StdoutLine: {'line': b'creating /home/davidter/ros2_ws/src/build/trsa_lab1/build\n'}
+[0.816989] (trsa_lab1) StdoutLine: {'line': b'creating /home/davidter/ros2_ws/src/build/trsa_lab1/build/lib\n'}
+[0.817591] (trsa_lab1) StdoutLine: {'line': b'creating /home/davidter/ros2_ws/src/build/trsa_lab1/build/lib/trsa_lab1\n'}
+[0.818080] (trsa_lab1) StdoutLine: {'line': b'copying trsa_lab1/image_rectifier.py -> /home/davidter/ros2_ws/src/build/trsa_lab1/build/lib/trsa_lab1\n'}
+[0.818194] (trsa_lab1) StdoutLine: {'line': b'copying trsa_lab1/image_reader.py -> /home/davidter/ros2_ws/src/build/trsa_lab1/build/lib/trsa_lab1\n'}
+[0.818341] (trsa_lab1) StdoutLine: {'line': b'copying trsa_lab1/camera_driver.py -> /home/davidter/ros2_ws/src/build/trsa_lab1/build/lib/trsa_lab1\n'}
+[0.818461] (trsa_lab1) StdoutLine: {'line': b'copying trsa_lab1/camera_calibration_pub.py -> /home/davidter/ros2_ws/src/build/trsa_lab1/build/lib/trsa_lab1\n'}
+[0.818738] (trsa_lab1) StdoutLine: {'line': b'copying trsa_lab1/__init__.py -> /home/davidter/ros2_ws/src/build/trsa_lab1/build/lib/trsa_lab1\n'}
+[0.818933] (trsa_lab1) StdoutLine: {'line': b'running install\n'}
+[0.819218] (trsa_lab1) StdoutLine: {'line': b'running install_lib\n'}
+[0.819841] (trsa_lab1) StdoutLine: {'line': b'creating /home/davidter/ros2_ws/src/install/trsa_lab1/lib/python3.10/site-packages/trsa_lab1\n'}
+[0.820361] (trsa_lab1) StdoutLine: {'line': b'copying /home/davidter/ros2_ws/src/build/trsa_lab1/build/lib/trsa_lab1/image_rectifier.py -> /home/davidter/ros2_ws/src/install/trsa_lab1/lib/python3.10/site-packages/trsa_lab1\n'}
+[0.820589] (trsa_lab1) StdoutLine: {'line': b'copying /home/davidter/ros2_ws/src/build/trsa_lab1/build/lib/trsa_lab1/image_reader.py -> /home/davidter/ros2_ws/src/install/trsa_lab1/lib/python3.10/site-packages/trsa_lab1\n'}
+[0.820789] (trsa_lab1) StdoutLine: {'line': b'copying /home/davidter/ros2_ws/src/build/trsa_lab1/build/lib/trsa_lab1/camera_driver.py -> /home/davidter/ros2_ws/src/install/trsa_lab1/lib/python3.10/site-packages/trsa_lab1\n'}
+[0.820972] (trsa_lab1) StdoutLine: {'line': b'copying /home/davidter/ros2_ws/src/build/trsa_lab1/build/lib/trsa_lab1/camera_calibration_pub.py -> /home/davidter/ros2_ws/src/install/trsa_lab1/lib/python3.10/site-packages/trsa_lab1\n'}
+[0.821147] (trsa_lab1) StdoutLine: {'line': b'copying /home/davidter/ros2_ws/src/build/trsa_lab1/build/lib/trsa_lab1/__init__.py -> /home/davidter/ros2_ws/src/install/trsa_lab1/lib/python3.10/site-packages/trsa_lab1\n'}
+[0.821653] (trsa_lab1) StdoutLine: {'line': b'byte-compiling /home/davidter/ros2_ws/src/install/trsa_lab1/lib/python3.10/site-packages/trsa_lab1/image_rectifier.py to image_rectifier.cpython-310.pyc\n'}
+[0.822365] (trsa_lab1) StdoutLine: {'line': b'byte-compiling /home/davidter/ros2_ws/src/install/trsa_lab1/lib/python3.10/site-packages/trsa_lab1/image_reader.py to image_reader.cpython-310.pyc\n'}
+[0.822681] (trsa_lab1) StdoutLine: {'line': b'byte-compiling /home/davidter/ros2_ws/src/install/trsa_lab1/lib/python3.10/site-packages/trsa_lab1/camera_driver.py to camera_driver.cpython-310.pyc\n'}
+[0.822878] (trsa_lab1) StdoutLine: {'line': b'byte-compiling /home/davidter/ros2_ws/src/install/trsa_lab1/lib/python3.10/site-packages/trsa_lab1/camera_calibration_pub.py to camera_calibration_pub.cpython-310.pyc\n'}
+[0.823331] (trsa_lab1) StdoutLine: {'line': b'byte-compiling /home/davidter/ros2_ws/src/install/trsa_lab1/lib/python3.10/site-packages/trsa_lab1/__init__.py to __init__.cpython-310.pyc\n'}
+[0.823458] (trsa_lab1) StdoutLine: {'line': b'running install_data\n'}
+[0.823614] (trsa_lab1) StdoutLine: {'line': b'creating /home/davidter/ros2_ws/src/install/trsa_lab1/share/ament_index\n'}
+[0.823982] (trsa_lab1) StdoutLine: {'line': b'creating /home/davidter/ros2_ws/src/install/trsa_lab1/share/ament_index/resource_index\n'}
+[0.824492] (trsa_lab1) StdoutLine: {'line': b'creating /home/davidter/ros2_ws/src/install/trsa_lab1/share/ament_index/resource_index/packages\n'}
+[0.824911] (trsa_lab1) StdoutLine: {'line': b'copying resource/trsa_lab1 -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/ament_index/resource_index/packages\n'}
+[0.825095] (trsa_lab1) StdoutLine: {'line': b'copying package.xml -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1\n'}
+[0.825287] (trsa_lab1) StdoutLine: {'line': b'creating /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/video\n'}
+[0.825579] (trsa_lab1) StdoutLine: {'line': b'copying video/test.mov -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/video\n'}
+[0.904652] (-) TimerEvent: {}
+[0.918833] (trsa_lab1) StdoutLine: {'line': b'creating /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration\n'}
+[0.919342] (trsa_lab1) StdoutLine: {'line': b'creating /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.920064] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/45.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.920533] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/27.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.920882] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/110.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.922093] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/9.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.923062] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/60.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.923391] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/57.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.924191] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/27.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.924883] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/76.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.925487] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/58.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.926067] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/40.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.927138] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/100.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.928103] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/79.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.929201] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/111.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.930167] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/19.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.930441] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/34.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.931148] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/51.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.931583] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/80.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.931876] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/105.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.932512] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/117.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.933518] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/99.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.934394] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/68.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.935062] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/83.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.935975] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/116.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.936349] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/84.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.937283] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/95.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.937583] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/53.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.937966] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/18.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.939053] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/112.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.939584] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/85.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.940095] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/26.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.940951] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/8.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.941825] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/28.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.942688] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/38.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.943119] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/107.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.943563] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/5.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.944126] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/109.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.945101] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/35.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.946077] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/24.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.946977] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/55.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.948013] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/35.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.948496] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/98.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.949317] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/71.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.949704] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/18.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.950083] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/126.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.950952] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/122.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.951263] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/28.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.951648] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/118.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.952063] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/68.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.952493] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/25.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.952845] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/22.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.953147] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/119.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.953695] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/95.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.954405] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/43.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.955052] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/81.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.956135] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/0.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.957137] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/54.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.957597] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/83.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.957990] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/22.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.958867] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/6.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.959116] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/10.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.959746] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/1.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.960084] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/109.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.960443] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/13.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.961156] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/13.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.961492] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/12.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.961833] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/63.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.962706] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/86.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.963161] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/99.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.963470] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/111.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.963824] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/66.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.964115] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/60.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.964790] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/20.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.965819] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/36.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.966826] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/30.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.967663] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/94.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.968019] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/75.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.968892] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/92.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.969138] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/97.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.970047] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/77.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.970876] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/69.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.971175] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/2.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.971802] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/79.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.972148] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/125.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.972975] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/112.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.973686] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/110.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.974695] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/50.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.975205] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/23.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.975756] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/31.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.976510] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/30.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.976947] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/45.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.977843] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/69.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.978654] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/115.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.979418] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/82.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.980154] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/37.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.981165] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/24.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.981460] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/65.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.982300] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/55.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.982763] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/42.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.983396] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/14.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.984080] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/71.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.984769] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/2.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.985077] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/49.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.985939] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/36.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.986284] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/91.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.987120] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/3.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.987416] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/46.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.987758] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/101.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.988480] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/7.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.988883] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/82.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.989424] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/44.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.990231] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/54.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.991194] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/88.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.991564] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/48.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.992012] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/8.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.992363] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/84.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.992840] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/15.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.993263] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/108.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.994098] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/97.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.994439] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/87.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.994896] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/52.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.995712] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/56.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.996686] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/90.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.997575] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/115.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.997963] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/19.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.998762] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/59.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.999476] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/40.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[0.999751] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/121.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.000021] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/114.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.000918] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/67.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.001568] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/7.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.002299] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/64.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.002705] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/49.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.003261] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/89.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.003584] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/12.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.004593] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/102.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.004660] (-) TimerEvent: {}
+[1.005825] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/104.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.006531] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/59.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.006922] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/25.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.007922] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/87.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.010732] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/34.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.011133] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/96.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.011577] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/1.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.012249] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/125.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.012573] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/91.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.013004] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/66.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.013906] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/58.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.014775] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/77.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.015272] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/63.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.015415] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/102.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.016041] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/106.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.016692] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/93.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.016983] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/124.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.017690] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/41.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.018794] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/74.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.019248] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/73.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.020095] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/5.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.021056] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/120.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.021313] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/6.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.021938] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/62.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.022588] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/16.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.022874] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/85.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.023943] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/103.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.025096] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/67.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.025499] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/47.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.026195] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/72.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.026543] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/26.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.026859] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/29.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.027272] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/123.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.028025] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/89.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.028901] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/94.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.030097] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/88.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.030913] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/46.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.031871] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/32.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.032539] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/126.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.033186] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/101.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.033522] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/21.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.034773] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/72.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.035628] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/9.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.036054] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/31.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.036394] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/114.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.037046] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/33.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.037835] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/33.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.038182] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/21.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.038455] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/75.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.038806] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/32.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.039107] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/3.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.040136] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/29.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.040836] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/107.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.041659] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/116.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.042612] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/64.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.043688] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/56.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.044017] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/20.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.044511] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/70.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.045431] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/37.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.045870] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/80.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.046754] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/14.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.047028] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/117.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.047531] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/120.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.048250] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/98.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.048588] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/103.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.049506] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/61.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.050397] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/124.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.050800] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/122.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.051436] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/62.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.051751] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/119.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.052056] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/76.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.052915] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/90.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.053298] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/81.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.053659] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/108.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.054005] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/11.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.054712] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/104.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.055174] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/42.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.055567] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/48.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.056627] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/86.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.057547] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/52.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.057995] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/70.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.058427] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/123.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.058763] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/4.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.059719] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/78.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.060022] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/17.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.060717] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/105.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.061113] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/93.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.061871] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/15.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.062727] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/100.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.064297] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/61.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.064586] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/106.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.064977] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/74.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.065898] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/92.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.066491] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/38.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.067260] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/4.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.067564] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/39.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.068771] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/16.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.069432] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/43.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.069776] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/50.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.070629] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/44.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.071046] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/23.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.072086] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/118.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.072922] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/41.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.073320] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/57.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.073821] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/10.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.074292] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/51.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.075200] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/113.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.076085] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/121.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.076925] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/11.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.077288] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/65.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.077590] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/17.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.077975] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/47.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.078478] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/39.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.078823] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/53.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.079576] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/96.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.080271] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/113.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.080692] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/78.jpeg -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.081520] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/0.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.081774] (trsa_lab1) StdoutLine: {'line': b'copying calibration/images/73.jpeg:Zone.Identifier -> /home/davidter/ros2_ws/src/install/trsa_lab1/share/trsa_lab1/calibration/images\n'}
+[1.082114] (trsa_lab1) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.084248] (trsa_lab1) StdoutLine: {'line': b'Copying ../build/trsa_lab1/trsa_lab1.egg-info to /home/davidter/ros2_ws/src/install/trsa_lab1/lib/python3.10/site-packages/trsa_lab1-0.0.0-py3.10.egg-info\n'}
+[1.085869] (trsa_lab1) StdoutLine: {'line': b'running install_scripts\n'}
+[1.102359] (trsa_lab1) StdoutLine: {'line': b'Installing camera_calibration_pub script to /home/davidter/ros2_ws/src/install/trsa_lab1/lib/trsa_lab1\n'}
+[1.103037] (trsa_lab1) StdoutLine: {'line': b'Installing camera_driver script to /home/davidter/ros2_ws/src/install/trsa_lab1/lib/trsa_lab1\n'}
+[1.103225] (trsa_lab1) StdoutLine: {'line': b'Installing image_reader script to /home/davidter/ros2_ws/src/install/trsa_lab1/lib/trsa_lab1\n'}
+[1.103869] (trsa_lab1) StdoutLine: {'line': b"writing list of installed files to '/home/davidter/ros2_ws/src/build/trsa_lab1/install.log'\n"}
+[1.104816] (-) TimerEvent: {}
+[1.123888] (trsa_lab1) CommandEnded: {'returncode': 0}
+[1.140592] (trsa_lab1) JobEnded: {'identifier': 'trsa_lab1', 'rc': 0}
+[1.141570] (-) EventReactorShutdown: {}

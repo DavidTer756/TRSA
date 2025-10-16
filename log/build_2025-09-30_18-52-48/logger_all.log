@@ -1,0 +1,266 @@
+[0.215s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'trsa_lab1', '--symlink-install']
+[0.215s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['trsa_lab1'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f259709d6c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f259709d210>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f259709d210>>, mixin_verb=('build',))
+[0.331s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.332s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.332s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/davidter/ros2_ws'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/trsa_lab1) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/trsa_lab1) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/trsa_lab1) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/trsa_lab1) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/trsa_lab1) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/trsa_lab1) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/trsa_lab1) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/trsa_lab1) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/trsa_lab1) by extension 'ros'
+[0.344s] DEBUG:colcon.colcon_core.package_identification:Package 'src/trsa_lab1' with type 'ros.ament_python' and name 'trsa_lab1'
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.344s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.368s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.370s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/davidter/ros2_ws/install
+[0.371s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 272 installed packages in /opt/ros/humble
+[0.372s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'trsa_lab1' build argument 'cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'trsa_lab1' build argument 'cmake_target' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'trsa_lab1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'trsa_lab1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'trsa_lab1' build argument 'cmake_clean_first' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'trsa_lab1' build argument 'cmake_force_configure' from command line to 'False'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'trsa_lab1' build argument 'ament_cmake_args' from command line to 'None'
+[0.399s] Level 5:colcon.colcon_core.verb:set package 'trsa_lab1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.400s] Level 5:colcon.colcon_core.verb:set package 'trsa_lab1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.400s] DEBUG:colcon.colcon_core.verb:Building package 'trsa_lab1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/davidter/ros2_ws/build/trsa_lab1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/davidter/ros2_ws/install/trsa_lab1', 'merge_install': False, 'path': '/home/davidter/ros2_ws/src/trsa_lab1', 'symlink_install': True, 'test_result_base': None}
+[0.400s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.401s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.401s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/davidter/ros2_ws/src/trsa_lab1' with build type 'ament_python'
+[0.401s] Level 1:colcon.colcon_core.shell:create_environment_hook('trsa_lab1', 'ament_prefix_path')
+[0.403s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.403s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/hook/ament_prefix_path.ps1'
+[0.404s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/hook/ament_prefix_path.dsv'
+[0.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/hook/ament_prefix_path.sh'
+[0.405s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.405s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.591s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/davidter/ros2_ws/src/trsa_lab1'
+[0.592s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.592s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/ament_index/resource_index/packages/trsa_lab1
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/package.xml
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/video/test.mov
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/9.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/57.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/27.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/40.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/79.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/111.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/34.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/105.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/117.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/99.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/68.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/83.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/84.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/18.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/26.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/8.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/28.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/109.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/35.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/24.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/55.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/98.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/119.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/95.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/43.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/81.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/0.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/22.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/10.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/13.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/63.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/60.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/20.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/36.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/30.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/75.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/97.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/77.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/2.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/125.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/112.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/110.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/31.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/45.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/69.jpeg
+[0.847s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/115.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/82.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/37.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/65.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/42.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/14.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/71.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/49.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/91.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/101.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/44.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/54.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/108.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/52.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/56.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/90.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/19.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/59.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/114.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/67.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/7.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/12.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/104.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/25.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/87.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/1.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/66.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/58.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/102.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/106.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/124.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/41.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/73.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/5.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/6.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/62.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/85.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/47.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/123.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/89.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/94.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/88.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/46.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/32.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/126.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/21.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/72.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/33.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/3.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/29.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/107.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/116.jpeg
+[0.848s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/64.jpeg
+[0.849s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/70.jpeg
+[0.849s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/80.jpeg
+[0.849s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/120.jpeg
+[0.849s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/103.jpeg
+[0.849s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/61.jpeg
+[0.849s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/122.jpeg
+[0.849s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/76.jpeg
+[0.849s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/11.jpeg
+[0.849s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/48.jpeg
+[0.849s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/86.jpeg
+[0.849s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/4.jpeg
+[0.849s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/17.jpeg
+[0.849s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/93.jpeg
+[0.849s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/15.jpeg
+[0.849s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/100.jpeg
+[0.849s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/74.jpeg
+[0.849s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/92.jpeg
+[0.849s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/38.jpeg
+[0.849s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/39.jpeg
+[0.849s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/16.jpeg
+[0.849s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/50.jpeg
+[0.849s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/23.jpeg
+[0.849s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/118.jpeg
+[0.849s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/51.jpeg
+[0.849s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/113.jpeg
+[0.849s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/121.jpeg
+[0.849s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/53.jpeg
+[0.849s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/96.jpeg
+[0.849s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/calibration/images/78.jpeg
+[0.849s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1
+[0.849s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/lib/trsa_lab1/camera_calibration_pub
+[0.849s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/davidter/ros2_ws/install/trsa_lab1/lib/trsa_lab1/camera_driver
+[0.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/davidter/ros2_ws/build/trsa_lab1': PYTHONPATH=/home/davidter/ros2_ws/build/trsa_lab1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davidter/ros2_ws/install/trsa_lab1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/davidter/ros2_ws/build/trsa_lab1/build --no-deps symlink_data --force
+[1.242s] Level 1:colcon.colcon_core.shell:create_environment_hook('trsa_lab1', 'pythonpath_develop')
+[1.243s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davidter/ros2_ws/build/trsa_lab1/share/trsa_lab1/hook/pythonpath_develop.ps1'
+[1.243s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/davidter/ros2_ws/build/trsa_lab1' returned '0': PYTHONPATH=/home/davidter/ros2_ws/build/trsa_lab1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/davidter/ros2_ws/install/trsa_lab1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/davidter/ros2_ws/build/trsa_lab1/build --no-deps symlink_data --force
+[1.244s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/davidter/ros2_ws/build/trsa_lab1/share/trsa_lab1/hook/pythonpath_develop.dsv'
+[1.244s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davidter/ros2_ws/build/trsa_lab1/share/trsa_lab1/hook/pythonpath_develop.sh'
+[1.246s] Level 1:colcon.colcon_core.environment:checking '/home/davidter/ros2_ws/install/trsa_lab1' for CMake module files
+[1.247s] Level 1:colcon.colcon_core.environment:checking '/home/davidter/ros2_ws/install/trsa_lab1' for CMake config files
+[1.248s] Level 1:colcon.colcon_core.environment:checking '/home/davidter/ros2_ws/install/trsa_lab1/lib'
+[1.249s] Level 1:colcon.colcon_core.environment:checking '/home/davidter/ros2_ws/install/trsa_lab1/bin'
+[1.249s] Level 1:colcon.colcon_core.environment:checking '/home/davidter/ros2_ws/install/trsa_lab1/lib/pkgconfig/trsa_lab1.pc'
+[1.249s] Level 1:colcon.colcon_core.environment:checking '/home/davidter/ros2_ws/install/trsa_lab1/lib/python3.10/site-packages'
+[1.249s] Level 1:colcon.colcon_core.shell:create_environment_hook('trsa_lab1', 'pythonpath')
+[1.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/hook/pythonpath.ps1'
+[1.249s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/hook/pythonpath.dsv'
+[1.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/hook/pythonpath.sh'
+[1.250s] Level 1:colcon.colcon_core.environment:checking '/home/davidter/ros2_ws/install/trsa_lab1/bin'
+[1.250s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(trsa_lab1)
+[1.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/package.ps1'
+[1.251s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/package.dsv'
+[1.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/package.sh'
+[1.252s] INFO:colcon.colcon_core.shell:Creating package script '/home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/package.bash'
+[1.253s] INFO:colcon.colcon_core.shell:Creating package script '/home/davidter/ros2_ws/install/trsa_lab1/share/trsa_lab1/package.zsh'
+[1.253s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/davidter/ros2_ws/install/trsa_lab1/share/colcon-core/packages/trsa_lab1)
+[1.253s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.254s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.254s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.254s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.324s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.324s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.324s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.324s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.325s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[1.325s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.325s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/davidter/ros2_ws/install/local_setup.ps1'
+[1.326s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/davidter/ros2_ws/install/_local_setup_util_ps1.py'
+[1.327s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/davidter/ros2_ws/install/setup.ps1'
+[1.327s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/davidter/ros2_ws/install/local_setup.sh'
+[1.328s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/davidter/ros2_ws/install/_local_setup_util_sh.py'
+[1.328s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/davidter/ros2_ws/install/setup.sh'
+[1.329s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/davidter/ros2_ws/install/local_setup.bash'
+[1.329s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/davidter/ros2_ws/install/setup.bash'
+[1.330s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/davidter/ros2_ws/install/local_setup.zsh'
+[1.330s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/davidter/ros2_ws/install/setup.zsh'
